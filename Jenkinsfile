@@ -5,11 +5,11 @@ pipeline {
     }
     
     stages {
-        stage('git clone') {
-            steps {
-                git url: 'https://github.com/SarathKumarRaja/sparkjava-war-example.git', branch: 'master'
-            }
-        }
+        // stage('git clone') {
+        //     steps {
+        //         git url: 'https://github.com/SarathKumarRaja/sparkjava-war-example.git', branch: 'master'
+        //     }
+        // }
         
         stage('build') {
             steps {
